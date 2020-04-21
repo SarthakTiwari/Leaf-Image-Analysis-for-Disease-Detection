@@ -1,2 +1,4 @@
-# PlantVillage-Disease-Classification-Challenge
-##### Crop diseases are a major threat to food security, but their rapid identification remains difficult in many parts of the world due to the lack of the necessary infrastructure. The combination of increasing global smartphone penetration and recent advances in computer vision made possible by deep learning has paved the way for smartphone-assisted disease diagnosis. Using a public dataset of 54,306 images of diseased and healthy plant leaves collected under controlled conditions,Trained a deep convolutional neural network to identify 38 classes with name of crop and its disease (or absence thereof). This model achieved an accuracy of 92.27%.Also trained a network to distinguish between healthy and diseased crop and got a test accuracy of 98.89%. Overall, the approach of training deep learning models on increasingly large and publicly available image datasets presents a clear path towards smartphone- assisted crop disease diagnosis on a massive global scale.
+
+#### Leveraged Transfer Learning on VGG16 architecture to classify among 38 classes of plant-disease pairs
+#### Considered output from activation layer of different blocks in the network as features, to check for layer which gives the best set of features for classification
+#### Achieved an accuracy of 92.3%
